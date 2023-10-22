@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/java/resources/features",
         glue = "stepDefinition",
-        plugin = {"html:target/HTML_report.html"},
+        plugin = {"html:target/HTML_reportLogout.html"},
         tags = "@LogoutScenario"
 )
 

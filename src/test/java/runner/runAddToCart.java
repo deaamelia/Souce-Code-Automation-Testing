@@ -14,7 +14,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 @CucumberOptions(
         features = "src/test/java/resources/features",
         glue = "stepDefinition",
-        plugin = {"html:target/HTML_report.html"},
+        plugin = {"html:target/HTML_reportAddCart.html"},
         tags = "@Positive-AddToCart"
 )
 
