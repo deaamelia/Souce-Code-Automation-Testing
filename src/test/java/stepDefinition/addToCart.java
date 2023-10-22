@@ -97,6 +97,7 @@ public class addToCart {
                     Assert.assertFalse(false);
 
         }
+        driver.close();
 
 
     }
